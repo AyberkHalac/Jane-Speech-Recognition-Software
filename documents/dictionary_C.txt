@@ -1,0 +1,46 @@
+come back|Alright&-
+go away|My apologies&-
+Hello|Hello sir give me a command&
+Hi|Hi master&
+How are you|Thank you master, How are you?&
+Fine,thanks|Good to you&
+thank you|You are welcome&
+What is the weather like today|Looking for it&
+I love you|I love you too master&
+How old are you|I made in 2014&
+Do something for me|Whatever you wish, command me&
+Jane|Yes master&
+show commands|commands are loading&-
+whats todays date|Looking for it&-
+whats the date|Looking for it&-
+what day is it|Looking for it&-
+what time is it|Looking for it&-
+write mode|Tell me whatever you want to written&-
+close program|Goodbye Master&-
+close chrome|Chrome is closing&-
+close notepad|Notepad is closing&-
+close internet explorer|Internet explorer is closing&-
+Open chrome|Chrome is openning&chrome
+Open internet explorer|i-explorer is openning&iexplore
+Open Youtube|Youtube is opening&https://www.youtube.com/
+Open Google|Google is opening&https://www.google.com/
+Open Facebook|Facebook is opening&https://www.facebook.com/
+Open Twitter|Twitter is opening&https://www.Twitter.com/
+Open some music|aye aye captain&http://www.youtube.com/watch?v=r3TRCFaGCUg
+Open my documents|Opening&C:/Users/Ayberk/Documents
+open commands|as you wish&../../documents/dictionary_c.txt
+Search|Give me something&-
+Open Task manager|Task manager is openning&Taskmgr
+Open NotePad|NotePad is openning&Notepad
+programmer mode|Programmer Mode&-
+switch window|&-
+change tab|&-
+close tab|&-
+page up|&-
+page down|&-
+new tab|&-
+left|&-
+right|&-
+down|&-
+up|&-
+Go Hide|Hiding&-

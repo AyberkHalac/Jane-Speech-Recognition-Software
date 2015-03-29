@@ -1,27 +1,45 @@
-using System;
+﻿using System;
 using System.IO;
-
-namespace FileIOApplication
+using System.Collections;
+using System.Windows.Forms;
+namespace Jane
 {
-    class Program
+    class IO
     {
-        static void Main(string[] args)
+        public Boolean IoCCaller(String path)
         {
-            FileStream F = new FileStream("test.dat", 
-            FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            return IoChecker(path);
+        }
+        public ArrayList IoSCaller()
+        {
+            return IoS();
+        }
 
-            for (int i = 1; i <= 20; i++)
+        private Boolean IoChecker(string path)
+        {
+            if (!File.Exists(path))
             {
-                F.WriteByte((byte)i);
+                return false;
             }
+            else
+                return true;
+        }
+        private ArrayList IoS()
+        {
 
-            F.Position = 0;
-
-            for (int i = 0; i <= 20; i++)
+            ArrayList returner = new ArrayList();     
+            string commandDict = @"../../documents/dictionary_C.txt";
+            if (IoChecker(commandDict) == false)
+                MessageBox.Show("ERROR PATH");
+            using (StreamReader sr = File.OpenText(commandDict))
             {
-                Console.Write(F.ReadByte() + " ");
+                string checker = "";
+                while ((checker = sr.ReadLine()) != null)
+                {
+                    returner.Add(checker);
+                }
             }
-            F.Close();
-            Console.ReadKey();
+            return returner;
         }
     }
+}
